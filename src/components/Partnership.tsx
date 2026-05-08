@@ -1,0 +1,55 @@
+import React from 'react';
+
+const Partnership: React.FC = () => {
+  return (
+    <section className="py-20 bg-[#EDFFEE]">
+      <div className="max-w-[1200px] mx-auto px-4 lg:px-8">
+        <div className="relative rounded-[20px] overflow-hidden bg-gradient-to-br from-[#0cba1e] to-[#055e0c]">
+          {/* Abstract wavy background shape */}
+          <div
+            className="absolute top-0 right-0 w-[80%] h-full opacity-60 mix-blend-overlay"
+            style={{
+              background:
+                "radial-gradient(circle at 70% 30%, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0) 60%)",
+              clipPath: "polygon(100% 0, 100% 100%, 0 100%, 30% 50%, 0 0)",
+            }}
+          ></div>
+          <div
+            className="absolute bottom-0 left-0 w-[50%] h-[150%] opacity-30 mix-blend-overlay rounded-[100%]"
+            style={{
+              background:
+                "radial-gradient(circle at 30% 70%, #ffffff 0%, transparent 60%)",
+              transform: "translate(-20%, 10%)",
+            }}
+          ></div>
+
+          <div className="relative z-10 px-10 py-16 lg:px-20 lg:py-24 max-w-[800px]">
+            <h2 className="text-3xl lg:text-[3rem] font-bold text-white mb-6 leading-tight tracking-tight">
+              How to work together <span className="opacity-90">.</span>
+            </h2>
+            <p className="text-white/90 text-[1rem] lg:text-[1.1rem] leading-relaxed mb-10 max-w-[650px]">
+              We're open to partnerships with organizations, wellness brands,
+              herbal companies, and health-focused communities across the
+              natural health and wellness space. If your mission aligns with
+              ours, we'd love to connect.
+            </p>
+            <button className="flex items-center gap-3 bg-white text-primary px-6 py-3 lg:px-8 lg:py-3.5 rounded-full font-bold text-[0.95rem] hover:bg-gray-50 hover:scale-105 transition-all duration-300 shadow-lg cursor-pointer">
+              Get in Touch
+              <div className="w-6 h-6 rounded-full bg-gray-300 flex items-center justify-center">
+                <svg
+                  className="w-3 h-3 text-primary ml-0.5"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Partnership;
