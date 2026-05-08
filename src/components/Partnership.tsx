@@ -34,7 +34,7 @@ const Partnership: React.FC = () => {
               ours, we'd love to connect.
             </p>
             <button className="flex items-center gap-3 bg-white text-primary px-6 py-3 lg:px-8 lg:py-3.5 rounded-full font-bold text-[0.95rem] hover:bg-gray-50 hover:scale-105 transition-all duration-300 shadow-lg cursor-pointer">
-              Get in Touch
+              <a href="https://wa.me/2349059575287?text=Hi%2C%20I'd%20like%20to%20check%20my%20symptoms">Get in Touch</a>
               <div className="w-6 h-6 rounded-full bg-gray-300 flex items-center justify-center">
                 <svg
                   className="w-3 h-3 text-primary ml-0.5"
