@@ -16,10 +16,10 @@ const Home: React.FC = () => {
         <div className="relative z-10">
           <Navbar />
 
-          <main className="pt-[150px] text-center px-4 lg:px-8">
+          <main className="pt-[150px] bg-[#F8FFF8] text-center px-4 lg:px-8 font-[Arial]" >
             <div className="max-w-[1200px] mx-auto">
               {/* Hero Content */}
-              <h1 className="text-[2rem] lg:text-[3rem] font-bold max-w-[900px] mx-auto mb-6 leading-[1.2] text-[#0d1b2a] animate-[fadeIn_1s_ease-out_forwards] [animation-delay:0.2s] opacity-0">
+              <h1 className="text-[2rem] lg:text-[3rem] font-bold max-w-[900px] mx-auto mb-6 leading-[1.2] text-[#001621] animate-[fadeIn_1s_ease-out_forwards] [animation-delay:0.2s] opacity-0">
                 <span className="text-primary">24/7</span> Personalized Natural
                 Wellness via WhatsApp, Powered by AI.
               </h1>

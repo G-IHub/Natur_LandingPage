@@ -2,12 +2,12 @@ import React from 'react';
 
 const Privacy: React.FC = () => {
   return (
-    <section className="py-24 bg-white border-t border-gray-50">
+    <section className="py-24 bg-white border-t border-gray-50 font-[Inter]">
       <div className="max-w-[1200px] mx-auto px-4 lg:px-8">
         <div className="text-center mb-16 max-w-3xl mx-auto">
-          <p className="text-primary font-bold text-sm tracking-widest uppercase mb-4">Your privacy comes first</p>
-          <h2 className="text-2xl lg:text-3xl font-bold text-[#1a202c] mb-6">We are committed to protecting your health data.</h2>
-          <p className="text-text-muted text-[1rem] leading-relaxed">
+          <p className="text-primary font-bold text-sm tracking-widest uppercase mb-3">Your privacy comes first</p>
+          <h2 className="text-2xl lg:text-3xl font-bold text-[#1a202c] mb-3">We are committed to protecting your health data.</h2>
+          <p className="text-gray-600 text-sm leading-relaxed lg:max-w-2xl lg:mx-auto">
             Your health information is used solely to provide your personalized wellness guidance. We do not sell, share, or use your data for advertising or any third-party purposes — ever. Our practices are guided by the principles of HIPAA, GDPR, and NDPR data privacy frameworks.
           </p>
         </div>
@@ -20,8 +20,8 @@ const Privacy: React.FC = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
               </svg>
             </div>
-            <h3 className="text-lg font-bold text-[#1a202c] mb-4">Your data stays yours</h3>
-            <p className="text-text-muted text-[0.85rem] leading-relaxed">
+            <h3 className="text-lg font-bold text-[#1a202c] mb-2">Your data stays yours</h3>
+            <p className="text-gray-600 text-[0.85rem] leading-relaxed">
               We never sell or share your personal health information with third parties, advertisers, or data brokers under any circumstance.
             </p>
           </div>
@@ -34,7 +34,7 @@ const Privacy: React.FC = () => {
               </svg>
             </div>
             <h3 className="text-lg font-bold text-[#1a202c] mb-4">Used only for your wellness</h3>
-            <p className="text-text-muted text-[0.85rem] leading-relaxed">
+            <p className="text-gray-600 text-[0.85rem] leading-relaxed">
               Any information you share is used exclusively to generate your personalized natural remedy plan — nothing else.
             </p>
           </div>
@@ -47,7 +47,7 @@ const Privacy: React.FC = () => {
               </svg>
             </div>
             <h3 className="text-lg font-bold text-[#1a202c] mb-4">Guided by global standards</h3>
-            <p className="text-text-muted text-[0.85rem] leading-relaxed">
+            <p className="text-gray-600 text-[0.85rem] leading-relaxed">
               Our data handling practices are guided by HIPAA, GDPR, and NDPR principles — because your trust is the foundation of everything we do.
             </p>
           </div>
