@@ -2,9 +2,9 @@ import React from 'react';
 
 const BottomCTA: React.FC = () => {
   return (
-    <section className="py-20 bg-[#EDFFEE]">
+    <section className="py-30 bg-[#EDFFEE] font-[Inter]">
       <div className="max-w-[1200px] mx-auto px-4 lg:px-8">
-        <div className="relative rounded-[20px] overflow-hidden bg-gradient-to-br from-[#0cba1e] to-[#055e0c] shadow-2xl py-20 px-8 lg:px-16 text-center">
+        <div className="relative rounded-4xl overflow-hidden bg-linear-to-br from-[#0cba1e] to-[#055e0c] shadow-2xl py-20 px-8 lg:px-16 text-center">
           {/* Abstract wavy background shapes */}
           <div
             className="absolute top-0 right-0 w-[80%] h-full opacity-60 mix-blend-overlay"
@@ -22,6 +22,17 @@ const BottomCTA: React.FC = () => {
               transform: "translate(-30%, 20%)",
             }}
           ></div>
+
+          <div className='rotate-180 absolute inset-0 w-full h-full hidden lg:block'><svg
+              className="absolute inset-0 w-full h-full"
+              viewBox="0 0 1200 200"
+              preserveAspectRatio="none"
+            >
+              <path
+                d="M -100 120 C 250 -20, 700 280, 1300 120 L 1300 350 L -100 350 Z"
+                fill="#006400"
+              />
+            </svg></div>
 
           <div className="relative z-10 max-w-[800px] mx-auto flex flex-col items-center">
             <h2 className="text-3xl lg:text-[3rem] font-bold text-white mb-6 leading-tight tracking-tight">

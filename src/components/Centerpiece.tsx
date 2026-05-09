@@ -1,5 +1,6 @@
 import React from 'react';
 import phoneMockup from '../assets/image2.png';
+// import wavy from '../assets/wavy.svg';
 import doc1 from '../assets/image.png';
 import doc2 from '../assets/image1.png';
 
@@ -40,7 +41,8 @@ const Centerpiece: React.FC = () => {
         <div className="absolute bg-white px-4 py-2 lg:px-8 lg:py-2 rounded-r-full rounded-tl-full font-bold text-[0.85rem] lg:text-[1.1rem] shadow-[0_10px_30px_rgba(0,0,0,0.08)] z-20 whitespace-nowrap border border-white transition-all duration-300 ease-in-out hover:scale-105 hover:bg-white/90 bottom-[25%] left-[22%] lg:left-[30%] animate-[float_5s_ease-in-out_infinite] [animation-delay:-2.5s]">
           Feel better
         </div>
-        <div className="bg-wavy"></div>
+        <div className="bg-wavy">
+        </div>
       </div>
     </div>
   );

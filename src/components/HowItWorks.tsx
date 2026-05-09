@@ -1,12 +1,12 @@
 import React from 'react';
-import chatIcon from '../assets/chat.png';
-import describeIcon from '../assets/describe.png';
-import personalIcon from '../assets/personal.png';
-import professionalIcon from '../assets/professional.png';
+import chatIcon from '../assets/chat.svg';
+import describeIcon from '../assets/describe.svg';
+import personalIcon from '../assets/personal.svg';
+import professionalIcon from '../assets/professional.svg';
 
 const HowItWorks: React.FC = () => {
   return (
-    <section id="how" className="py-24 bg-white">
+    <section id="how" className="py-24 bg-white font-[Inter]">
       <div className="max-w-[1200px] mx-auto px-4 lg:px-8">
         <div className="text-center mb-16">
           <p className="text-primary font-bold text-sm tracking-widest uppercase mb-4">
@@ -27,10 +27,10 @@ const HowItWorks: React.FC = () => {
                 className="w-[100px] h-auto object-contain"
               />
             </div>
-            <h3 className="text-lg font-bold text-[#1a202c] mb-3">
+            <h3 className="text-lg font-bold text-[#1a202c] mb-2">
               Start a Chat
             </h3>
-            <p className="text-text-muted text-[0.85rem] leading-relaxed mb-4 flex-grow">
+            <p className="text-text-muted text-[0.85rem] leading-relaxed mb-2 flex-grow">
               Begin a conversation with Awosan on WhatsApp and get instant
               access to personalized natural wellness support.
             </p>
@@ -51,7 +51,7 @@ const HowItWorks: React.FC = () => {
                 className="w-[100px] h-auto object-contain"
               />
             </div>
-            <h3 className="text-lg font-bold text-[#1a202c] mb-3">
+            <h3 className="text-lg font-bold text-[#1a202c] mb-2">
               Describe Your Symptoms
             </h3>
             <p className="text-text-muted text-[0.85rem] leading-relaxed flex-grow">
@@ -70,7 +70,7 @@ const HowItWorks: React.FC = () => {
                 className="w-[100px] h-auto object-contain"
               />
             </div>
-            <h3 className="text-lg font-bold text-[#1a202c] mb-3">
+            <h3 className="text-sm font-bold text-[#1a202c] mb-2">
               Get Personalized Natural Guidance
             </h3>
             <p className="text-text-muted text-[0.85rem] leading-relaxed flex-grow">
@@ -89,7 +89,7 @@ const HowItWorks: React.FC = () => {
                 className="w-[100px] h-auto object-contain"
               />
             </div>
-            <h3 className="text-lg font-bold text-[#1a202c] mb-3">
+            <h3 className="text-lg font-bold text-[#1a202c] mb-2">
               Access Professional Consultations
             </h3>
             <p className="text-text-muted text-[0.85rem] leading-relaxed flex-grow">

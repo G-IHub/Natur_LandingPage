@@ -15,7 +15,7 @@ const StarRating = () => (
 
 const Testimonials: React.FC = () => {
   return (
-    <section className="py-24 bg-[#fafafa]">
+    <section className="py-24 bg-[#fafafa] font-[Inter]">
       <div className="max-w-[1200px] mx-auto px-4 lg:px-8">
         <div className="text-center mb-16">
           <p className="text-primary font-bold text-xs tracking-widest uppercase mb-4">TESTIMONIALS</p>
