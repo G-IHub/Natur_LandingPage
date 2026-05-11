@@ -6,7 +6,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="fixed top-0 left-0 w-full z-100 bg-white/90 backdrop-blur-md h-20">
       <div className="max-w-7xl mx-auto px-8 py-4 flex justify-between items-center h-full font-[Inter]">
-        <div className="logo relative w-45 h-full flex items-center">
+        <div className="logo relative w-45 h-full flex items-center border-0">
           <Link to="/" className="absolute top-1/2 -translate-y-1/2 left-0">
             <img
               src={logo}
