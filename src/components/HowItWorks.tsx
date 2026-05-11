@@ -31,7 +31,7 @@ const HowItWorks: React.FC = () => {
               Start a Chat
             </h3>
             <p className="text-text-muted text-[0.85rem] leading-relaxed mb-2 flex-grow">
-              Begin a conversation with Awosan on WhatsApp and get instant
+              Begin a conversation with Natur on WhatsApp and get instant
               access to personalized natural wellness support.
             </p>
             <a
@@ -55,7 +55,7 @@ const HowItWorks: React.FC = () => {
               Describe Your Symptoms
             </h3>
             <p className="text-text-muted text-[0.85rem] leading-relaxed flex-grow">
-              Share your health concerns in detail. Awosan analyzes them using
+              Share your health concerns in detail. Natur analyzes them using
               African medicinal knowledge and modern diagnostics to understand
               what you're experiencing.
             </p>
@@ -93,7 +93,7 @@ const HowItWorks: React.FC = () => {
               Access Professional Consultations
             </h3>
             <p className="text-text-muted text-[0.85rem] leading-relaxed flex-grow">
-              When needed, Awosan connects you to certified G-Natures health
+              When needed, Natur connects you to certified G-Natures health
               advisors, herbal specialists, or nutrition experts for deeper
               guidance.
             </p>

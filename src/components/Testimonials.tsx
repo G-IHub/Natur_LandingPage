@@ -27,7 +27,7 @@ const Testimonials: React.FC = () => {
           <div className="bg-white p-8 rounded-lg border border-gray-100 flex flex-col">
             <StarRating />
             <p className="text-[#333] text-[0.95rem] leading-relaxed mb-10 flex-grow">
-              "Before using Natur, I was confused about which natural remedies to take for my chronic pain. I was getting conflicting advice everywhere. With Awosan's personalized guidance using African herbs, I finally understood which remedies work for MY body. I feel much more confident managing my health naturally now."
+              "Before using Natur, I was confused about which natural remedies to take for my chronic pain. I was getting conflicting advice everywhere. With Natur's personalized guidance using African herbs, I finally understood which remedies work for MY body. I feel much more confident managing my health naturally now."
             </p>
             <div className="mt-auto">
               <p className="font-bold text-[#1a202c] text-[0.9rem]">Awoniyi Funke</p>
