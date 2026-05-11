@@ -9,7 +9,7 @@ const Centerpiece: React.FC = () => {
     <div className="relative flex justify-center mt-16 animate-[fadeIn_1s_ease-out_forwards] [animation-delay:0.8s] opacity-0 w-full">
       <div className="relative w-full h-125 lg:h-150">
         {/* Phone Mockup */}
-        <div className="absolute left-[60%] lg:left-175 -bottom-[25%] lg:-bottom-40 -translate-x-1/2 w-[350px] lg:w-125 z-10">
+        <div className="absolute left-[70%] lg:left-175 -bottom-[25%] lg:-bottom-40 -translate-x-1/2 w-[350px] lg:w-125 z-10">
           <img
             src={phoneMockup}
             alt="WhatsApp Chat"
