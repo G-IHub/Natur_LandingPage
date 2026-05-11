@@ -18,16 +18,16 @@ const Centerpiece: React.FC = () => {
         </div>
 
         {/* Floating Profile Circles */}
-        <div className="absolute rounded-l-full rounded-tr-full overflow-hidden flex items-end justify-center shadow-md z-20 transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-2.5 hover:z-20 bg-[#FED73A] top-[5%] left-[5%] lg:left-[15%] w-16 h-16 lg:w-30 lg:h-30 animate-[float_5s_ease-in-out_infinite] px-2">
+        <div className="absolute rounded-l-full rounded-tr-full overflow-hidden flex items-end justify-center shadow-md z-20 transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-2.5 hover:z-20 bg-[#FED73A] top-[5%] left-[5%] lg:left-[15%] w-20 h-20 lg:w-30 lg:h-30 animate-[float_5s_ease-in-out_infinite] px-2">
           <img src={doc1} alt="Doctor" className="w-full h-auto" />
         </div>
-        <div className="absolute rounded-r-full rounded-tl-full overflow-hidden flex items-end justify-center shadow-md z-20 transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-2.5 hover:z-20 bg-[#897BD6] top-[5%] right-[5%] lg:right-[10%] w-16 h-16 lg:w-30 lg:h-30 animate-[float_5s_ease-in-out_infinite] [animation-delay:-1s] px-4">
+        <div className="absolute rounded-r-full rounded-tl-full overflow-hidden flex items-end justify-center shadow-md z-20 transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-2.5 hover:z-20 bg-[#897BD6] top-[5%] right-[5%] lg:right-[10%] w-20 h-20 lg:w-30 lg:h-30 animate-[float_5s_ease-in-out_infinite] [animation-delay:-1s] px-2">
           <img src={doc2} alt="Doctor" className="w-full h-auto" />
         </div>
-        <div className="absolute rounded-l-full rounded-tr-full overflow-hidden flex items-end justify-center shadow-md z-20 transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-2.5 hover:z-20 bg-[#3ADEFE] bottom-[15%] left-[0%] lg:left-[5%] w-16 h-16 lg:w-30 lg:h-30 animate-[float_5s_ease-in-out_infinite] [animation-delay:-2s] px-2">
+        <div className="absolute rounded-l-full rounded-tr-full overflow-hidden flex items-end justify-center shadow-md z-20 transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-2.5 hover:z-20 bg-[#3ADEFE] bottom-[15%] left-[0%] lg:left-[5%] w-20 h-20 lg:w-30 lg:h-30 animate-[float_5s_ease-in-out_infinite] [animation-delay:-2s] px-2">
           <img src={doc1} alt="Doctor" className="w-full h-auto" />
         </div>
-        <div className="absolute rounded-r-full rounded-tl-full overflow-hidden flex items-end justify-center shadow-md z-20 transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-2.5 hover:z-20 bg-[#482BE6] bottom-[10%] right-[5%] lg:right-[10%] w-16 h-16 lg:w-30 lg:h-30 animate-[float_5s_ease-in-out_infinite] [animation-delay:-3s] px-4">
+        <div className="absolute rounded-r-full rounded-tl-full overflow-hidden flex items-end justify-center shadow-md z-20 transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-2.5 hover:z-20 bg-[#482BE6] bottom-[10%] right-[5%] lg:right-[10%] w-20 h-20 lg:w-30 lg:h-30 animate-[float_5s_ease-in-out_infinite] [animation-delay:-3s] px-2">
           <img src={doc2} alt="Doctor" className="w-full h-auto" />
         </div>
 
