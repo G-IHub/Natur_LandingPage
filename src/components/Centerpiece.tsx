@@ -38,7 +38,7 @@ const Centerpiece: React.FC = () => {
         <div className="absolute bg-white p-2 lg:py-2.5 lg:px-10 rounded-l-full rounded-tr-full font-[Inter] font-medium text-[#505050] text-xs lg:text-sm shadow-xl z-20 whitespace-nowrap border border-white transition-all duration-300 ease-in-out hover:scale-105 hover:bg-white/90 bottom-[32%] right-[4%] lg:bottom-[42%] lg:right-[32%] animate-[float_5s_ease-in-out_infinite] [animation-delay:-0.5s]">
           Get Treatment
         </div>
-        <div className="absolute bg-white p-2 lg:py-2.5 lg:px-10 rounded-r-full rounded-tl-full font-[Inter] font-medium text-[#505050] text-[9px] lg:text-sm shadow-xl z-20 whitespace-nowrap border border-white transition-all duration-300 ease-in-out hover:scale-105 hover:bg-white/90 bottom-[14%] left-[22%] lg:bottom-[20%] lg:left-[32%] animate-[float_5s_ease-in-out_infinite] [animation-delay:-2.5s]">
+        <div className="absolute bg-white py-2 px-4 lg:py-2.5 lg:px-10 rounded-r-full rounded-tl-full font-[Inter] font-medium text-[#505050] text-xs lg:text-sm shadow-xl z-20 whitespace-nowrap border border-white transition-all duration-300 ease-in-out hover:scale-105 hover:bg-white/90 bottom-[14%] left-[22%] lg:bottom-[20%] lg:left-[32%] animate-[float_5s_ease-in-out_infinite] [animation-delay:-2.5s]">
           Feel better
         </div>
         <div className="w-full hidden lg:block">
