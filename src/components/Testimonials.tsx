@@ -31,7 +31,6 @@ const Testimonials: React.FC = () => {
             </p>
             <div className="mt-auto">
               <p className="font-bold text-[#1a202c] text-[0.9rem]">Awoniyi Funke</p>
-              <p className="text-gray-400 text-xs">Founder, Bitcoin (BTC)</p>
             </div>
           </div>
 
@@ -43,7 +42,6 @@ const Testimonials: React.FC = () => {
             </p>
             <div className="mt-auto">
               <p className="font-bold text-[#1a202c] text-[0.9rem]">Mary Goodluck</p>
-              <p className="text-gray-400 text-xs">Founder, Bitcoin (BTC)</p>
             </div>
           </div>
 
@@ -55,7 +53,6 @@ const Testimonials: React.FC = () => {
             </p>
             <div className="mt-auto">
               <p className="font-bold text-[#1a202c] text-[0.9rem]">Nifemi Olaiya</p>
-              <p className="text-gray-400 text-xs">Founder, Bitcoin (BTC)</p>
             </div>
           </div>
         </div>
