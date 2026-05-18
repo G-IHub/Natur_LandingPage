@@ -1,7 +1,7 @@
 import React from "react";
 import phoneMockup from "../assets/image2.png";
-import doc1 from "../assets/image.svg";
-import doc2 from "../assets/image1.svg";
+// import doc1 from "../assets/image.svg";
+// import doc2 from "../assets/image1.svg";
 
 
 const Centerpiece: React.FC = () => {
