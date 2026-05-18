@@ -6,7 +6,7 @@ import phoneMockup from "../assets/image2.png";
 
 const Centerpiece: React.FC = () => {
   return (
-    <div className="relative flex justify-center mt-16 animate-[fadeIn_1s_ease-out_forwards] [animation-delay:0.8s] opacity-0 w-full border-2 border-green-100 rounded-full bg-green-50 overflow-hidden">
+    <div className="relative flex justify-center mt-8 animate-[fadeIn_1s_ease-out_forwards] [animation-delay:0.8s] opacity-0 w-full border-2 border-green-100 rounded-full bg-green-50 overflow-hidden">
       <div className="relative w-full h-125 lg:h-150">
         {/* Phone Mockup */}
         <div className="absolute left-[70%] lg:left-[60%] bottom-[5%] lg:bottom-0 -translate-x-1/2 w-[250px] lg:w-[300px] z-10">
